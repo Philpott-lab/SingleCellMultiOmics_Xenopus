@@ -28,9 +28,6 @@ The complete rendered analysis report can be viewed here:
 
 [Open the HTML report](./reports/SingleCellMultiOmics_Xenopus_analysis.html)
 
-The source R Markdown file used to generate this report is available here:
-
-[View the R Markdown source file](./rmarkdown/SingleCellMultiOmics_Xenopus_analysis.Rmd)
 
 ## Repository structure
 
@@ -39,10 +36,7 @@ SingleCellMultiOmics_Xenopus/
 │
 ├── README.md
 │
-├── rmarkdown/
-│   └── SingleCellMultiOmics_Xenopus_analysis.Rmd
-│
-├── reports/
+├── rmarkdown reports/
 │   └── SingleCellMultiOmics_Xenopus_analysis.html
 │
 ├── data/

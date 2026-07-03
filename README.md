@@ -52,52 +52,33 @@ SingleCellMultiOmics_Xenopus/
 
 ## Folder description
 
-### `rmarkdown/`
+### `rmarkdown report/`
 
-This folder contains the main `.Rmd` file used to perform the analysis and generate the final HTML report.
-
-### `reports/`
-
-This folder contains the compiled HTML report generated from the R Markdown file. The HTML report includes the analysis workflow, code chunks, package-loading instructions, results, and automatically generated figures.
+This folder contains the compiled HTML report generated from the R Markdown file. The HTML report includes the analysis workflow, code chunks, package-loading/package requirements, results, and automatically generated figures. 
 
 ### `data/`
 
-This folder contains the input data files required to run the R Markdown analysis. Large files or restricted-access datasets should not be uploaded directly to GitHub. If any data files are too large or cannot be shared publicly, their source or access instructions should be described in `data/README_data.md`.
-
-### `figures/`
-
-This folder contains figures generated automatically from the analysis code or final figure files used in the manuscript.
-
-### `results/`
-
-This folder contains output tables, processed results, and intermediate files generated during the analysis.
-
+This folder contains the input data files required to run the R Markdown analysis. Only one larger file specifically **data/Xenopus_scATAC_Data_allSublibraries/FragmentFile_filtered_Ascl1_T1_barcodes_cutoff1000.tsv.gz** is not uploaded directly to GitHub but can be downloaded from GEO. 
 
 ## How to use this repository
 
-Users can either view the rendered analysis directly using the HTML report or reproduce the analysis from the R Markdown file.
+Users can either view the rendered analysis directly using the HTML report or reproduce the analysis from the R Markdown file, which can be provided upon request.
 
 To reproduce the analysis:
 
-1. Clone this repository.
+1. Download or clone this repository.
 2. Open the `.Rmd` file in RStudio.
-3. Ensure that all required input files are available in the `data/` folder.
-4. Knit the R Markdown file to generate the HTML report.
+3. Ensure that all required input files are available in the `data/` folder and that file paths are set up correctly.
+4. For the transcriptomic modality, unzip all sublibrary folders in `data/Xenopus_scRNA_Data_allSublibraries`.
+5. Knit the R Markdown file to generate the HTML report.
 
-Alternatively, the report can be rendered from R using:
-
-```r
-rmarkdown::render("rmarkdown/SingleCellMultiOmics_Xenopus_analysis.Rmd")
-```
 
 ## Package requirements
 
-The required R packages and installation/loading instructions are included inside the HTML report and the R Markdown file.
+The required R packages are included inside the HTML report and the R Markdown file.
 
 ## Data availability
 
-Input files used by the R Markdown workflow are provided in the `data/` folder where possible. Any large or restricted-access files should be described in `data/README_data.md`, together with instructions for obtaining the data.
+Input files used by the R Markdown workflow are provided in the `data/` folder where possible. Missing file **data/Xenopus_scATAC_Data_allSublibraries/FragmentFile_filtered_Ascl1_T1_barcodes_cutoff1000.tsv.gz** can be doanloaded from GEO
 
-## Citation
 
-If you use this code or analysis workflow, please cite the associated manuscript.

@@ -38,7 +38,7 @@ SingleCellMultiOmics_Xenopus/
 │
 ├── README.md
 │
-├── rmarkdown report/
+├── rmarkdown_report/
 │   └── SingleCellMultiOmics_Xenopus_analysis.html
 │
 ├── data/
@@ -54,7 +54,7 @@ SingleCellMultiOmics_Xenopus/
 
 ## Folder description
 
-### `rmarkdown report/`
+### `rmarkdown_report/`
 
 This folder contains the compiled HTML report generated from the R Markdown file. The HTML report includes the analysis workflow, code chunks, package-loading/package requirements, results, and automatically generated figures. 
 

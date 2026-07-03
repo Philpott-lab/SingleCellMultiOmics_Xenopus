@@ -28,7 +28,7 @@ This report contains the R Markdown workflow used to analyse single-cell multiom
 
 The goal of this report is to provide the key analysis steps required to reproduce the main results. Code for these important steps is included directly within the report.
 
-[Open the HTML report](./rmarkdown%20report/)
+[Open the HTML report](./rmarkdown%20report)
 
 
 ## Repository structure

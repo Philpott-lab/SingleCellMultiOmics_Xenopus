@@ -82,6 +82,6 @@ The required R packages are included inside the HTML report and the R Markdown f
 
 ## Data availability
 
-Input files used by the R Markdown workflow are provided in the `data/` folder where possible. Sequencing data has been deposited in the GEO repository with the accession number GSE230767 for the ChIP-seq data and GSE336320 for the multiome snRNA/ATACseq data.
+Input files used by the R Markdown workflow are provided in the `data/` folder where possible. Sequencing data has been deposited in the GEO repository with the accession number **GSE230767** for the ChIP-seq data and **GSE336320** for the multiome snRNA/ATACseq data.
 
 

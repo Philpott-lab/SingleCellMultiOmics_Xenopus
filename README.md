@@ -60,7 +60,7 @@ This folder contains the compiled HTML report generated from the R Markdown file
 
 ### `data/`
 
-This folder contains the input data files required to run the R Markdown analysis. Only one larger file specifically **data/Xenopus_scATAC_Data_allSublibraries/FragmentFile_filtered_Ascl1_T1_barcodes_cutoff1000.tsv.gz** is not uploaded directly to GitHub but can be downloaded from GEO. 
+This folder contains the input data files required to run the R Markdown analysis. Only one larger file specifically **data/Xenopus_scATAC_Data_allSublibraries/FragmentFile_filtered_Ascl1_T1_barcodes_cutoff1000.tsv.gz** is not uploaded directly to GitHub but can be doanloaded from Gene Expression Omnibus data repository (GEO) with the accession number **GSE336320** for the multiome snRNA/ATACseq data. 
 
 ## How to use this repository
 
@@ -82,6 +82,6 @@ The required R packages are included inside the HTML report and the R Markdown f
 
 ## Data availability
 
-Input files used by the R Markdown workflow are provided in the `data/` folder where possible. Missing file **data/Xenopus_scATAC_Data_allSublibraries/FragmentFile_filtered_Ascl1_T1_barcodes_cutoff1000.tsv.gz** can be doanloaded from GEO
+Input files used by the R Markdown workflow are provided in the `data/` folder where possible. Sequencing data has been deposited in the GEO repository with the accession number GSE230767 for the ChIP-seq data and GSE336320 for the multiome snRNA/ATACseq data.
 
 

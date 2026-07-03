@@ -40,9 +40,10 @@ SingleCellMultiOmics_Xenopus/
 │   └── SingleCellMultiOmics_Xenopus_analysis.html
 │
 ├── data/
-│   ├── input_file_1.csv
-│   ├── input_file_2.csv
-│   └── README_data.md
+│   ├── Xenopus_scRNA_Data_allSublibraries
+│   ├── Xenopus_scATAC_Data_allSublibraries
+│   ├── gene_lists
+│   └── HOMER _motif_analysis
 │
 ├── figures/
 │   ├── figure_1.pdf

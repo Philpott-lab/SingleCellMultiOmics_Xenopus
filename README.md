@@ -20,11 +20,13 @@ This repository contains the code, analysis files, input data, and figure-genera
 
 **Tissue-specific chromatin accessibility and co-factor availability together define Ascl1-dependent neural reprogrammability across germ layers during embryogenesis**
 
-The main analysis is provided as an R Markdown workflow. A rendered HTML report is also included so that users can view the full analysis, code chunks, package requirements, generated figures, and outputs directly without re-running the analysis.
+The main analysis is provided as an R Markdown workflow. 
 
 ## Main analysis report
 
-The complete rendered analysis report can be viewed here:
+This report contains the R Markdown workflow used to analyse single-cell multiomics and related genomic datasets for the study of Ascl1-dependent neural reprogramming in the developing *Xenopus* embryo. The report includes executable code, package requirements, analysis outputs, and automatically generated figures associated with the manuscript.
+
+The goal of this report is to provide the key analysis steps required to reproduce the main results. Code for these important steps is included directly within the report.
 
 [Open the HTML report](./reports/SingleCellMultiOmics_Xenopus_analysis.html)
 

@@ -72,7 +72,8 @@ To reproduce the analysis:
 2. Open the `.Rmd` file in RStudio.
 3. Ensure that all required input files are available in the `data/` folder and that file paths are set up correctly.
 4. For the transcriptomic modality, unzip all sublibrary folders in `data/Xenopus_scRNA_Data_allSublibraries`.
-5. Knit the R Markdown file to generate the HTML report.
+5. Genome annotation and reference genome files are not included in the `data/` folder. The required `.gtf` annotation file and `.fa` genome sequence file can be obtained from the *Xenopus laevis* NCBI RefSeq genome assembly **GCF_017654675.1**.
+6. Knit the R Markdown file to generate the HTML report.
 
 
 ## Package requirements

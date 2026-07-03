@@ -45,7 +45,7 @@ SingleCellMultiOmics_Xenopus/
     ├── Xenopus_scRNA_Data_allSublibraries
     ├── Xenopus_scATAC_Data_allSublibraries
     ├── gene_lists
-    └── HOMER _motif_analysis
+    └── HOMER_motif_analysis
 
 
 ```

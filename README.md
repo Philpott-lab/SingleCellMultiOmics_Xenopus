@@ -44,8 +44,10 @@ SingleCellMultiOmics_Xenopus/
 ├── data/
     ├── Xenopus_scRNA_Data_allSublibraries
     ├── Xenopus_scATAC_Data_allSublibraries
+    ├── protein_coding_introns.rds
     ├── gene_lists
     └── HOMER_motif_analysis
+
 
 
 ```

@@ -28,7 +28,7 @@ This report contains the R Markdown workflow used to analyse single-cell multiom
 
 The goal of this report is to provide the key analysis steps required to reproduce the main results. Code for these important steps is included directly within the report.
 
-[Open the HTML report](./reports/SingleCellMultiOmics_Xenopus_analysis.html)
+[Open the HTML report](./rmarkdown report/SingleCellMultiOmics_Xenopus_analysis.html)
 
 
 ## Repository structure
@@ -38,7 +38,7 @@ SingleCellMultiOmics_Xenopus/
 │
 ├── README.md
 │
-├── rmarkdown reports/
+├── rmarkdown report/
 │   └── SingleCellMultiOmics_Xenopus_analysis.html
 │
 ├── data/
